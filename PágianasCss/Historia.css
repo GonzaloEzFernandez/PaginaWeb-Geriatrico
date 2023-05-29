@@ -1,0 +1,70 @@
+#historia {
+    /* background-color: red; */
+    min-height: 90vh;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 2rem;
+    margin-top: 250px;
+    
+
+    
+}
+#historia .flex-historia {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 120px;
+}
+
+#historia .img-abuelos {
+    background: url(/Contenido/abuelosabrazo-kLAG--1248x698@abc.jpg)
+    no-repeat;
+    margin-left: 70px;
+    background-size: cover;
+    min-width: 50%;
+    min-height: 70vh;
+    object-fit: cover;
+    animation-name: imgHistoria;
+    animation-duration: 2.5s;
+}
+@keyframes imgHistoria {
+    0% {
+        translate: -700px;
+        opacity: 0;
+    }
+    100% {
+        translate: 0;
+        opacity: 1;
+    }
+    
+}
+
+#historia .historia-redacción {
+ /* background: red; */
+ width: 40%;
+ margin: 0 auto;
+ margin-right: 70px;
+ align-self: center;
+ border: double 40px lightblue;
+ padding: 200px 100px 200px 100px;
+ animation-name: redaccionHistoria;
+ animation-duration: 2.5s;
+}
+@keyframes redaccionHistoria {
+    0%{
+        translate: 700px;
+        opacity: 0;    
+    }
+    100% {
+        translate: 0;
+        opacity: 1;
+    }
+}
+
+#historia p {
+    line-height: 5rem;
+    font-size: 50px;
+    text-align: center;
+    
+    
+}

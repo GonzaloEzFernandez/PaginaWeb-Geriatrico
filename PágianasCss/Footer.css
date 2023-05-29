@@ -1,0 +1,30 @@
+footer {
+    background: linear-gradient(transparent, rgba(74, 199, 241, 0.79));
+    width: 100%;
+    height: 30vh;
+    border: solid 1px black;
+    margin-top: 140px;
+}
+#contacto div {
+    font-size: 4rem;
+    margin: 1rem;
+}
+#contacto .contacto-flex {
+    
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+    margin-top: 2rem;
+    padding: 4rem;
+}
+#contacto .contacto-flex img {
+    width: 120px;
+    height: 120px;
+    /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1); */
+    border-radius: 30%;
+    transition: 1s ease-out;
+}
+
+#contacto .contacto-flex img:hover {
+    transform: scale(1.1);
+}

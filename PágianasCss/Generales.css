@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    background: rgba(187, 228, 241, 0.218);
+     
+}
+
+h2 {
+
+    font-family: 'Playfair Display', serif;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-weight: 100;
+    font-size: 80px;
+}
+h3 {
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-weight: 500;
+    font-size: 70px;
+   /*  margin-top: 280px; */
+    
+}
+h4 {
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-size: 65px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+p {
+    font-family: Georgia,Times,"Times New Roman",serif;   
+    font-size: 3rem;
+}
+
+.logo {
+    width: 12rem;
+    height: 12rem;
+}
+/* .copyright {
+    width: 1px;
+} */
