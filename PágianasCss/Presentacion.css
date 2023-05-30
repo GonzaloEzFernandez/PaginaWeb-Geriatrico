@@ -34,7 +34,7 @@
 }
 
 #presentacion .right-img {
-    background: url(/Contenido/DSC01271.JPG);
+    background: url(../Contenido/DSC01271.JPG);
     background-size: cover;
     background-position: center;
     grid-row: span 2;
