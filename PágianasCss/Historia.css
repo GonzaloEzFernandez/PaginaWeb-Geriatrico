@@ -65,6 +65,22 @@
     line-height: 5rem;
     font-size: 50px;
     text-align: center;
-    
-    
+}
+
+.boton-historia {
+    font-size: 55px;
+    border-radius: 25%;
+    padding: 40px;
+    background-color: transparent;
+    border: solid 3px black;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+}
+.boton-historia a {
+    text-decoration: none;
+    color: black;
+}
+
+.boton-historia:hover {
+    transform: scale(1.06)
 }

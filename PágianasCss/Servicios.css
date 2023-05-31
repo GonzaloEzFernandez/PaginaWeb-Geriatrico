@@ -60,7 +60,7 @@
     width: 90%;
     /* border: solid 3px black; */
     border-radius: 40px; 
-    background-color: rgba(173, 216, 230, 0.539);
+    /* background-color: rgba(173, 216, 230, 0.539); */
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
@@ -69,8 +69,8 @@
 } 
 
 #servicios .servicios-contenedor .items {
-    width: 1000px;
-    height: 750px;
+    width: 950px;
+    height: 850px;
     padding: 10px;
     border: solid 4.5px black;
     margin: 40px;
